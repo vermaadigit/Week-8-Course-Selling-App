@@ -3,7 +3,7 @@
 - Initialize the new Node.js Project
 - Add Express, jsonwebtoken to it as a dependency
 - Create index.js
-- Add route skeleton for user login, signup, purchase a course, see a course
+- Add route skeleton for user login, signup, purchase a course, see all the course and sell all the purchased course
 - Add route for admin login, admin signup, create a course, delete a course, Add a course
 - Add middleware for user and admin auth
 - Add routes for admin login, admin signup, create a course, delete a course, add course content.
