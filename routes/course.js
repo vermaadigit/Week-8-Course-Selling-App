@@ -14,4 +14,6 @@ function createCourseRoutes(app)
     })
 }
 
-module.exports = createCourseRoutes;
+module.exports = {
+    createCourseRoutes : createCourseRoutes
+}

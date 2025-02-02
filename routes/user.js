@@ -20,4 +20,6 @@ function createUserRoutes(app)
     })
 }
 
-module.exports = createUserRoutes;
+module.exports = {
+    createUserRoutes : createUserRoutes
+}
