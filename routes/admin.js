@@ -7,7 +7,7 @@ const { JWT_ADMIN_PASSWORD } = require('../config');
 const { adminMiddleware } = require('../middleware/admin');
 
 
-adminRouter.post('/signup',async function(req, res) {
+adminRouter.post('/signup', async function(req, res) {
     const { email, password, firstName, lastName } = req.body;
 
     await adminModel.create({
@@ -18,7 +18,7 @@ adminRouter.post('/signup',async function(req, res) {
     })
 
     res.json({
-        message : 'Admin signup Endpoint'
+        message : 'Signup Succeeded'
     })
 })
 
