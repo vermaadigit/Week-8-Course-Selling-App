@@ -52,10 +52,10 @@ adminRouter.post('/course', adminMiddleware, async function(req, res) {
     const {title, description, price, imageUrl} = req.body;
 
     const course = await adminModel.create({
-        title,
-        description,
-        price,
-        imageUrl,
+        title : title,
+        description : description,
+        price : price,
+        imageUrl : imageUrl,
         creatorID : adminId
     })
 
